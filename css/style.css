@@ -75,3 +75,7 @@ footer{
     text-align: left;
 	line-height: 150%;
 }
+
+img:nth-child(2n){
+	border: 20px solid pink;
+}
