@@ -118,7 +118,7 @@ form{
 }
 @media only screen and (max-width: 768px) {
 	.main{
-		background-image: url("images/giza-plateau-pyramids_16x9.jpeg")
+		background-image: url("images/giza-plateau-pyramids_16x9.jpeg");
 	}
 	
 	body {
