@@ -181,4 +181,13 @@ form{
         	background-size: contain;
         	flex-basis: 500px;
 	}
+	
+	img{
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 10px;
+        align-items: center;
+        background-size: contain;
+        flex-basis: 500px;
+    }
   }
