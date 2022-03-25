@@ -134,6 +134,7 @@ form{
 
 #two{
 	grid-area: 1 / 2 / span 1 / span 1;
+	width: auto;
 }
 
 #three{
