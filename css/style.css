@@ -170,16 +170,6 @@ form{
 		list-style-image: url(/images/anhk.jpeg);
 	}
 
-	h1 .welcome{
-		color: rgb(25, 39, 65);
-		width: 1vw;
-	}
-
-	h1 .Egyptology{
-		width: 1vw;
-	}
-
-
 	.wallpainting{
 		display: grid;
 		grid-template-rows: 800px 800px 800px 800px 800px 800px 800px 800px;
