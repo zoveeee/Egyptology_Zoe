@@ -31,15 +31,7 @@ nav li{
 	margin: auto;
 }
 
-img{
-    display: block;
-	padding-left: 10px;
-	padding-right: 10px;
-    border: 3px solid black;
-	margin: 20px;
-	justify-self: center;
-	text-align: center;
-}
+
 
 img:hover{
 	width: 1480px;
@@ -96,7 +88,7 @@ footer{
 
 .welcome{
 	background-attachment: scroll;
-  	background-image: url("/images/Egyptian_tomb_wall-painting_-_Egyptian_Collections,_Vol._XI_(1826-1838),_f.118_-_BL_Add_MS_29822.jpg");
+  	background-image: url("/Users/zoezhang/Documents/Egyptology/images/Egyptian_tomb_wall-painting_-_Egyptian_Collections,_Vol._XI_(1826-1838),_f.118_-_BL_Add_MS_29822.jpg");
   	min-height: 800px;
   	height: 100%;
   	background-attachment: fixed;
@@ -125,6 +117,8 @@ form{
 		display: inline-block;
 		font-family: "Fira Sans", serif;
 		background-color: #ffffff;
+		padding: 20px;
+		margin: 10px;
 	  }
 	  
 	.dropdown span{
@@ -164,19 +158,28 @@ form{
 		margin: 20px;
 		padding: 20px;
 		text-decoration: none;
-		list-style-image: url(/images/anhk.jpeg);
+		list-style-image: url(/Users/zoezhang/Documents/Egyptology/images/anhk.jpeg);
 	}
 
-	img{
-		display: flex;
-		flex-flow: row nowrap;
-		padding: 10px;
-		align-items: center;
-		background-size: contain;
-		flex-basis: 500px;
-	}
-
-	.welcome{
+	h1 .welcome{
 		color: rgb(25, 39, 65);
+		width: 1vw;
+	}
+
+	h1 .Egyptology{
+		width: 1vw;
+	}
+
+
+	.wallpainting{
+		display: grid;
+		grid-template-rows: 800px 800px 800px 800px 800px 800px 800px 800px;
+		grid-template-columns: 1vw;
+		row-gap: 50px;
+		margin: 50px;
+	}
+
+	img .wallpainting{
+		grid-column: 1 / span 1;
 	}
   }
