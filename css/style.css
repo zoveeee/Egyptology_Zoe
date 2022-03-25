@@ -39,7 +39,6 @@ img{
     margin: 20px;
     justify-self: center;
     text-align: center;
-    width: 1vw;
 }
 
 
@@ -52,7 +51,6 @@ img:hover{
 	padding-right: 10px;
     border: 10px solid black;
 	border-radius: 15px;
-	width: 1vw;
 }
 
 h1{
