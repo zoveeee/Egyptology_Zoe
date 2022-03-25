@@ -171,10 +171,10 @@ form{
 
 	.wallpainting{
 		display: flex;
-		flex-flow: row nowrap;
-        padding: 10px;
-        align-items: center;
-        background-size: contain;
-        flex-basis: 500px;
+		flex-flow: wrap;
+        	padding: 10px;
+       		align-items: center;
+        	background-size: contain;
+        	flex-basis: 500px;
 	}
   }
