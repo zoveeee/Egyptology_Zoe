@@ -123,11 +123,13 @@ form{
 	grid-template-rows: 30% 30% 30%;
 	grid-gap: 20px;
 	row-gap:20px;
+	justify-Items: center;
 	
 }
 
 #one{
 	grid-area: 1 / 1 / span 1 / span 1;
+	width: 33%
 }
 
 #two{
