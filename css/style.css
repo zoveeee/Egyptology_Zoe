@@ -116,6 +116,15 @@ form{
 	padding: 20px;
 	line-height: 40px;
 }
+
+.stepsimages{
+	display: block;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	row-gap:20px;
+	
+}
 @media only screen and (max-width: 768px) {
 	.main{
 		background-image: url("images/giza-plateau-pyramids_16x9.jpeg");
