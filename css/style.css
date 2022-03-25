@@ -119,8 +119,8 @@ form{
 
 .stepsimages{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1/3fr 1/3fr 1/3fr;
+	grid-template-rows: 1/3fr 1/3fr 1/3fr;
 	grid-gap: 20px;
 	row-gap:20px;
 	
