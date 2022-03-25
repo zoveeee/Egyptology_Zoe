@@ -190,5 +190,6 @@ form{
 
 	img .wallpainting{
 		grid-column: 1 / span 1;
+		width: 350px;
 	}
   }
