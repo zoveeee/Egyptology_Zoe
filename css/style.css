@@ -97,7 +97,7 @@ footer{
 
 .welcome{
 	background-attachment: scroll;
-  	background-image: url("images/Egyptian_tomb_wall-painting_-_Egyptian_Collections,_Vol._XI_(1826-1838),_f.118_-_BL_Add_MS_29822.jpg");
+  	background-image: url("/images/Egyptian_tomb_wall-painting_-_Egyptian_Collections,_Vol._XI_(1826-1838),_f.118_-_BL_Add_MS_29822.jpg");
   	min-height: 800px;
   	height: 100%;
   	background-attachment: fixed;
@@ -167,7 +167,7 @@ form{
 		margin: 20px;
 		padding: 20px;
 		text-decoration: none;
-		list-style-image: url(images/anhk.jpeg);
+		list-style-image: url(/images/anhk.jpeg);
 	}
 
 	h1 .welcome{
