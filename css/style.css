@@ -1,0 +1,182 @@
+html{
+	scroll-behavior: smooth;
+  }
+  
+body{
+	background-color: #fff8ec;
+}
+
+.dropdown {
+	display: flex;
+	flex-direction: row;
+}
+
+a:link{
+	color:#000000;
+	text-decoration: none;
+}
+a:active{color:#000000}
+a:visited{color:#000000}
+a:hover{color:#000000}
+
+nav li{
+	background-color: #dbcca3;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font: black;
+	margin: 10px;
+	padding:10px;
+	border:5px solid rgb(194, 170, 34);
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+}
+
+img{
+    display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+    border: 3px solid black;
+	margin: 20px;
+	justify-self: center;
+	text-align: center;
+}
+
+img:hover{
+	width: 1480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+    border: 10px solid black;
+	border-radius: 15px;
+}
+
+h1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font: black;
+	font-size: 48px; 
+	font-weight: bold;
+	padding: 30px;
+	margin: 10px;
+    text-align: center;
+}
+
+h2{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font: black;
+	font-size: 30px; 
+	font-weight: bold;
+	padding: 15px;
+	margin: 10px;
+    text-align: left;
+}
+
+p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font: black;
+	font-size: 18px; 
+	font-weight: normal;
+	padding: 30px;
+	margin: 10px;
+    text-align: left;
+	line-height: 150%;
+}
+
+footer{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font: black;
+	font-size: 5px; 
+	font-weight: normal;
+	padding: 30px;
+	margin: 10px;
+    text-align: left;
+	line-height: 150%;
+}
+
+.welcome{
+	background-attachment: scroll;
+  	background-image: url("/Users/zoezhang/Documents/Egyptology/images/Egyptian_tomb_wall-painting_-_Egyptian_Collections,_Vol._XI_(1826-1838),_f.118_-_BL_Add_MS_29822.jpg");
+  	min-height: 800px;
+  	height: 100%;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color: #000000;
+  	z-index: 1;
+	  text-align: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 20px;
+	line-height: 40px;
+}
+@media only screen and (max-width: 768px) {
+	body {
+	  background-color: #FAF8EF;
+	}
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+		font-family: "Fira Sans", serif;
+		background-color: #ffffff;
+	  }
+	  
+	.dropdown span{
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-weight: 25px;
+		text-align: center;
+		text-align: center;
+		margin: auto;
+	}
+
+	.active {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		padding: 12px 16px;
+		z-index: 1;
+	}
+
+	nav li{
+		font-family: "Fira Sans";
+		background-color: #ffffff;
+		margin: 10px;
+		padding:10px;
+		font-weight: 20;
+		display: flex;
+		justify-content: left;
+		align-items: left;
+		margin: auto;
+		flex-direction: column;
+		border: none;	
+	}
+	  
+	.dropdown:hover .active {
+		display: block;
+		margin: 20px;
+		padding: 20px;
+		text-decoration: none;
+		list-style-image: url(/Users/zoezhang/Documents/Egyptology/images/anhk.jpeg);
+	}
+
+	img{
+		display: flex;
+		flex-flow: row nowrap;
+		padding: 10px;
+		align-items: center;
+		background-size: contain;
+		flex-basis: 500px;
+	}
+
+	.welcome{
+		color: rgb(25, 39, 65);
+	}
+  }
