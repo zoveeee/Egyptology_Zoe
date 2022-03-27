@@ -256,42 +256,111 @@ form{
 	justify-Items: center;
 	
 	
-}
+	}
 
-#one{
-	grid-area: 1 / 1 / span 1 / span 1;
-}
+	#one{
+		grid-area: 1 / 1 / span 1 / span 1;
+	}
 
-#two{
-	grid-area: 2 / 1 / span 1 / span 1;
-}
+	#two{
+		grid-area: 2 / 1 / span 1 / span 1;
+	}
 
-#three{
-	grid-area: 3 / 1 / span 1 / span 1;
-}
+	#three{
+		grid-area: 3 / 1 / span 1 / span 1;
+	}
 
-#four{
-	grid-area: 4 / 1 / span 1 / span 1;
-}
+	#four{
+		grid-area: 4 / 1 / span 1 / span 1;
+	}
 
-#five{
-	grid-area: 5 / 1 / span 1 / span 1;
-}
+	#five{
+		grid-area: 5 / 1 / span 1 / span 1;
+	}
 
-#six{
-	grid-area: 6 / 1 / span 1 / span 1;
-}
+	#six{
+		grid-area: 6 / 1 / span 1 / span 1;
+	}
 
-#seven{
-	grid-area: 7 / 1 / span 1 / span 1;
-}
+	#seven{
+		grid-area: 7 / 1 / span 1 / span 1;
+	}
 
-#eight{
-	grid-area: 8 / 1 / span 1 / span 1;
-}
+	#eight{
+		grid-area: 8 / 1 / span 1 / span 1;
+	}
 
-#nine{
-	grid-area: 9 / 1 / span 1 / span 1;
-}
+	#nine{
+		grid-area: 9 / 1 / span 1 / span 1;
+	}
 	
+	@keyframes mymove {
+	    0% {width: 200px; opacity: 0;}
+	    100% {width: 300px; opacity: 1;}
+	}
+
+	.funeral mask{
+	    animation-name: mymove;
+	    animation-duration: 5s;
+	}
+	
+	.sculpture1{
+	    animation-name: mymove;
+	    animation-duration: 5s;
+	}
+	
+	.sculpture1{
+	    animation-name: mymove;
+	    animation-duration: 5s;
+	}
+	
+	.sculpture2{
+	    animation-name: mymove;
+	    animation-duration: 5s;
+	}
+	
+	.sculpture3{
+	    animation-name: mymove;
+	    animation-duration: 5s;
+	}
+	
+	.organ jars{
+	    animation-name: mymove;
+	    animation-duration: 5s;
+	}
+	
+	.funeral mask{
+	    animation-name: mymove;
+	    animation-duration: 5s;
+	}
+	
+	@media (prefers-reduced-motion) {
+		.funeral mask{
+	    		animation-name: none;
+		}
+	
+		.sculpture1{
+		    animation-name: none;
+		}
+
+		.sculpture1{
+		    animation-name: none;
+		}
+
+		.sculpture2{
+		    animation-name: none;
+		}
+
+		.sculpture3{
+		   animation-name: none;
+		}
+
+		.organ jars{
+		    animation-name: none;
+		}
+
+		.funeral mask{
+		   animation-name: none;
+		}
+	}	
   }
