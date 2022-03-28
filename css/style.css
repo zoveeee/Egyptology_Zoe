@@ -124,7 +124,10 @@ form{
 	grid-gap: 20px;
 	row-gap:20px;
 	justify-Items: center;
-	
+}
+
+.form{
+	background-image: url("paper.gif");
 }
 
 #one{
