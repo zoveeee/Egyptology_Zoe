@@ -4,7 +4,8 @@ html{
   
 body{
 	background-color: #fff8ec;
-	width: 90vw;
+	width: 100vw;
+	align-items: center;
 }
 
 .dropdown {
