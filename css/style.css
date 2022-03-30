@@ -4,6 +4,7 @@ html{
   
 body{
 	background-color: #fff8ec;
+	width: 90vw;
 }
 
 .dropdown {
@@ -39,11 +40,11 @@ img{
     	margin-right: auto;
 	padding-left: auto;
 	padding-right: auto;
-	width: 5/6vw;
+	width: 90vw;
     }
 
 img:hover{
-	width: 1480px;
+	width: 95vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -127,7 +128,13 @@ form{
 }
 
 .form{
-	background-image: url("/images/egypt-symbols-set-vector-7362526.jpeg");
+	background-attachment: scroll;
+	background-image: url("../images/egypt-symbols-set-vector-7362526.jpeg");
+	background-attachment: fixed;
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	z-index: 1;
 }
 
 #one{
