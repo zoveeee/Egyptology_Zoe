@@ -116,6 +116,13 @@ form{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	padding: 20px;
 	line-height: 40px;
+	background-attachment: scroll;
+	background-image: url("../images/egypt-symbols-set-vector-7362526.jpeg");
+	background-attachment: fixed;
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	z-index: 1;
 }
 
 .stepsimages{
@@ -125,16 +132,6 @@ form{
 	grid-gap: 20px;
 	row-gap:20px;
 	justify-Items: center;
-}
-
-.form{
-	background-attachment: scroll;
-	background-image: url("../images/egypt-symbols-set-vector-7362526.jpeg");
-	background-attachment: fixed;
- 	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-	z-index: 1;
 }
 
 #one{
@@ -189,6 +186,7 @@ form{
 	
 	body {
 	  background-color: #FAF8EF;
+		font-family: "Fira Sans";
 	}
 
 	.dropdown {
