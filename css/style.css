@@ -69,6 +69,12 @@ img{
 	animation-duration: 5s;
 }
 
+.music{
+	margin: 10px;
+	padding: 10px;
+	align_self:center;
+}
+
 h1{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font: black;
