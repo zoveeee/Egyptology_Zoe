@@ -76,6 +76,11 @@ img{
 	justify-self: center;
 }
 
+audio{
+	align-self:center;
+	margin:auto;
+}
+
 h1{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font: black;
