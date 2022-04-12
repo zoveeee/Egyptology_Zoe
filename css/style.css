@@ -63,6 +63,12 @@ img{
 	animation-duration: 3s;
 }
 
+.astro img{
+	width: 90vw;
+	animation-name:fade;
+	animation-duration: 5s;
+}
+
 h1{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font: black;
