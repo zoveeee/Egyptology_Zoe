@@ -581,6 +581,14 @@ p.lead.text-muted{
 	color: #000000;
 }
 
+label.form-label,
+span.text-muted,
+select#country,
+select #state,
+label{
+	color: red;
+}
+
 @media only screen and (max-width: 768px) {
 	.main{
 		background-image: url("images/giza-plateau-pyramids_16x9.jpeg");
