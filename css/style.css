@@ -589,6 +589,20 @@ label{
 	color: red;
 }
 
+div.row.py-lg-5, div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3{
+	background-color: #f6f6f6;
+}
+
+.numbertext{
+	color: white;
+}
+
+.row h1,
+.row p,
+.row a{
+	color: white;
+}
+
 @media only screen and (max-width: 768px) {
 	.main{
 		background-image: url("images/giza-plateau-pyramids_16x9.jpeg");
